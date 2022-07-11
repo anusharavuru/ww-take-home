@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="WWTest" verbose="1" parallel="false" thread-count="10">
+
+
+<test name="WWStudioFinderTest" parallel="false" thread-count="4">
+<parameter name="browser" value="chrome" ></parameter> 
+<classes>
+	 <class name="com.Tests.WWStudioFinderTest"></class>
+</classes>	
+</test>
+
+
+</suite>
